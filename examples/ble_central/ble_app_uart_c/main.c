@@ -176,7 +176,6 @@ void uart_event_handle(app_uart_evt_t * p_event)
 								{
 									sd_ble_gap_disconnect(m_ble_nus_c.conn_handle, BLE_HCI_REMOTE_USER_TERMINATED_CONNECTION);
 									myconcetbit=0;
-									//scan_start();
 								}
 					 	}
 					 else
