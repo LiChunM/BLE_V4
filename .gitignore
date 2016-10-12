@@ -1,0 +1,30 @@
+SI/*
+examples/ble_central/ble_app_uart_c/pca10031/s120/arm4/_build/*
+# Object files
+*.orig
+*.o
+*.ko
+*.obj
+*.elf
+*.pp
+*.cout
+*.pbi
+*.pbi.cout
+*.dep
+*.dni
+*.dbgdt
+*.bat
+*.wspos
+*.wsdt
+*.tmp
+*.orig
+# Libraries
+*.lib
+
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+#gitignore
