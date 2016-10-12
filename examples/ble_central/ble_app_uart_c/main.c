@@ -130,6 +130,7 @@ static void scan_start(void)
  */
 
 /*add 0x0d 0x0a as a endcall*/
+/*This is a Test For Git*/
 void uart_event_handle(app_uart_evt_t * p_event)
 {
 	uint8_t res,i;
