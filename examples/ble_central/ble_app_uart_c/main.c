@@ -128,6 +128,8 @@ static void scan_start(void)
  *          'new line' i.e '\n' (hex 0x0D) or if the string has reached a length of 
  *          @ref NUS_MAX_DATA_LENGTH.
  */
+
+/*add 0x0d 0x0a as a endcall*/
 void uart_event_handle(app_uart_evt_t * p_event)
 {
 	uint8_t res,i;
